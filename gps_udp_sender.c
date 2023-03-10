@@ -1,6 +1,6 @@
 // Beaglebone Blue GPS UDP Sender
 // by Ian Renton, March 2023
-// https://github.com/ianrenton/beaglebone-blue-heading-gps-sender
+// https://github.com/ianrenton/beaglebone-blue-gps-udp-sender
 //
 // Reads lines from a serial port, and sends them via UDP to two ports. Maybe
 // useful if you have several programs needing the data that can't both access
