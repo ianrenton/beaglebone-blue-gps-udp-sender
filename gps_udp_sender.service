@@ -1,0 +1,11 @@
+[Unit]
+Description=GPS UDP Sender
+Requires=systemd-modules-load.service
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/gps_udp_sender
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
